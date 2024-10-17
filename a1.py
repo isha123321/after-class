@@ -1,0 +1,12 @@
+print("enter marks obtained in 7 subjects:")
+english=int(input("english:"))
+urdu=int(input("urdu:"))
+math=int(input("math:"))
+science=int(input("science:"))
+history=int(input("history:"))
+geography=int(input("geography:"))
+sum=english+urdu+math+science+history+geography
+print ("sum of english+urdu+math+science+history+geography",sum)
+avg=(sum/7)
+print("average marks=",avg)
+print(avg)
